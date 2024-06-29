@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "mpc.h"
+
 /* If we are compiling on Windows compile these functions we have to add this */
 #ifdef _WIN32
 #include <string.h>
 
 static char buffer[2028];
 
-/* Fake readline function  */
 char* readline(char* prompt) {
    fputs(prompt, stdout);
    fgets(buffer, 2048, stdin);
@@ -17,7 +18,6 @@ char* readline(char* prompt) {
    return cpy
 }
 
-/* Fake add_history function */
 void add_history(char* unused) {}
 
 /* Otherwise include the editline headers */
