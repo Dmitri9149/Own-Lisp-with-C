@@ -56,3 +56,5 @@ dkms.conf
 
 # my addition 
 something.txt
+parsing
+.vscode
