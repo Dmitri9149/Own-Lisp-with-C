@@ -1,8 +1,10 @@
-For some reasons I need interpreter for Lisp like language in Rust.  
-(Some dealect of Scheme, to be more presise).       
-As first step I study how to build 'own' Lisp with C with the tutorial   
+While learning and programming in Rust I realized that to understand the Rust language I need to understand the C. 
+For some reasons I also in need of interpreter for Lisp like language in Rust.  
+To learn the C, Lisp, and how to made interpreter for Lisp I made the tutorial:   
 [Build Your Own Lisp](https://buildyourownlisp.com/contents)    
 [Build Your Own Lisp; GitHub](https://github.com/orangeduck/BuildYourOwnLisp) 
+
+The project / learning is in progress. 
 
 ```mpc.c``` and ```mpc.h``` files are downloaded from   
 [orangeduck/mpc](https://github.com/orangeduck/mpc) the ```mpc``` parser library
@@ -29,6 +31,6 @@ lispy> + 10 (* 5 5)
 lispy> 
 ```
 
-The work is in progress.
+To be continued .. 
 
 
